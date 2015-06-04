@@ -435,9 +435,15 @@ app.directive "quickDatepicker", ['ngQuickDateDefaults', '$filter', '$sce', '$lo
 
     initialize()
 
-  # TEMPLATE
-  # ================================================================
-  template: """
+  templateUrl: (elem, attrs) ->
+    attrs.template || 'ngQuickDate/ngQuickDate.tpl.html'
+]
+
+# TEMPLATE
+# ================================================================
+app.run ['$templateCache',
+  ($templateCache) ->
+    $templateCache.put 'ngQuickDate/ngQuickDate.tpl.html', """
             <div class='quickdate'>
               <a href='' ng-focus='toggleCalendar()' ng-click='toggleCalendar()'
                   class='quickdate-button' title='{{hoverText}}'>\
