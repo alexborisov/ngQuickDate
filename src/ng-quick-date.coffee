@@ -62,6 +62,7 @@ app.directive "quickDatepicker", ['ngQuickDateDefaults', '$filter', '$sce', '$lo
     onChange: "&"
     required: '@'
     debug: '=?'
+    calendarShown: '=?'
 
   replace: true
   link: (scope, element, attrs, ngModelCtrl) ->
