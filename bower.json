@@ -1,6 +1,6 @@
 {
   "name": "ngQuickDate",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "main": [
     "dist/ng-quick-date.js",
     "dist/ng-quick-date.css",
