@@ -1,6 +1,6 @@
 {
   "name": "ab-ngQuickDate",
-  "version": "1.3.5",
+  "version": "1.4.1",
   "main": [
     "dist/ng-quick-date.js",
     "dist/ng-quick-date.css",
