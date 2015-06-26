@@ -24,12 +24,11 @@
     "ngQuickDate"
   ],
   "dependencies": {
-    "angularjs": "~1.3.0"
+    "angularjs": "~1.4.1"
   },
   "devDependencies": {
-    "angular-mocks": "~1.3.0",
-    "jasmine": "~1.3.1",
-    "karma-jasmine": "~0.1.3",
-    "jquery": "~2.0"
+    "angular-mocks": "~1.4.1",
+    "jasmine": "~2.3.4",
+    "karma-jasmine": "~0.3.5"
   }
 }
